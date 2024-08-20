@@ -49,6 +49,8 @@ jobs:
         run: |
           pnpm docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
           touch .nojekyll  # 通知githubpages不要使用Jekyll处理这个站点，不知道为啥不生效，就手动搞了
+      - name : log file
+        run: pwd
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
