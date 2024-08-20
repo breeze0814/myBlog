@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../node_modules/.pnpm/vitepress-theme-open17@1.1.3_vitepress@1.3.3/node_modules/vitepress-theme-open17/libs/index.ts"],
+  "sourcesContent": ["import DefaultTheme from 'vitepress/theme'\nimport { type EnhanceAppContext } from 'vitepress'\nimport MyLayout from './components/MyLayout.vue'\n\nimport Blog from './components/Blog.vue';\nimport Archive from './components/Archive.vue';\nimport Tags from './components/Tags.vue';\n\nimport './style.css'\n\n/** @type {import('vitepress').Theme} */\nexport default {\n  extends: DefaultTheme,\n  Layout: MyLayout,\n  enhanceApp({ app, router, siteData }:EnhanceAppContext) {\n    app.component('blog', Blog);\n    app.component('archive', Archive);\n    app.component('tags', Tags);\n  }\n}\n"],
+  "mappings": ";AAAA,OAAO,kBAAkB;AAEzB,OAAO,cAAc;AAErB,OAAO,UAAU;AACjB,OAAO,aAAa;AACpB,OAAO,UAAU;AAEjB,OAAO;AAGP,IAAO,eAAQ;AAAA,EACb,SAAS;AAAA,EACT,QAAQ;AAAA,EACR,WAAW,EAAE,KAAK,QAAQ,SAAS,GAAqB;AACtD,QAAI,UAAU,QAAQ,IAAI;AAC1B,QAAI,UAAU,WAAW,OAAO;AAChC,QAAI,UAAU,QAAQ,IAAI;AAAA,EAC5B;AACF;",
+  "names": []
+}
