@@ -5,7 +5,7 @@
 ```js
 themeConfig:{
     blog:{
-      title: "My Awesome Blog",     //昵称
+      title: "我的个人博客",     //昵称
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",  //签名
       avatar:"xxxx"               //你的头像(图片url)
     },
